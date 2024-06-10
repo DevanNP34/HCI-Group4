@@ -1,0 +1,138 @@
+.desc {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.desc-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-text {
+    flex: 1;
+    margin-right: 2dvh;
+}
+
+.desc-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.desc h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.desc p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.desc-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #f9f3e7;
+    border: 2px solid #000;
+    text-decoration: none;
+    color: #000;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.category-link {
+    text-align: center;
+}
+
+.category-img {
+    height: 300px;
+    margin-bottom: 0.5rem;
+}
+
+.products-carousel {
+    padding: 2rem 1rem;
+    background-color: #f7d8ba;
+    text-align: center;
+}
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 300px;
+}
+
+.carousel-item {
+    min-width: 300px;
+    transition: transform 0.5s ease;
+}
+
+.carousel-btn {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#prev-btn {
+    left: 0;
+}
+
+#next-btn {
+    right: 0;
+}
+
+.adoption {
+    padding: 2rem 1rem;
+}
+
+.adoption-title {
+    color: pink;
+}
+
+.adoption-cards {
+    margin-top: 3dvh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.adoption-card {
+    width: 30%;
+    padding: 1rem;
+    margin: 1rem 0;
+    float: left;
+}
+
+#lily {
+    background-color: #BACD92;
+}
+
+#carly {
+    background-color: #B4846C;
+}
+
+#nino {
+    background-color: #E27690;
+}
+
+.adoption-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.card-info {
+    text-align: left;
+}
